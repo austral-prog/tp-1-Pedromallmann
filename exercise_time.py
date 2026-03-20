@@ -8,3 +8,10 @@ def time():
     3. Segundos restantes
     """
     total_segundos = 3665
+    hora_completa = total_segundos // 3600
+    minutos_restantes = (total_segundos % 3600)//60
+    segundos_restantes = (total_segundos % 60)
+    print(hora_completa)
+    print(minutos_restantes)
+    print(segundos_restantes)
+time()
