@@ -8,3 +8,14 @@ def rectangle():
     """
     base = 10
     altura = 5
+    #OPCION 1
+    area = base * altura
+    perimetro = (base + altura) *2
+    print (area)
+    print (perimetro)
+
+    #OPCION 2
+    print(base*altura)
+    print((base + altura)*2)
+
+rectangle()
