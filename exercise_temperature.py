@@ -7,3 +7,7 @@ def temperature():
     2. La temperatura original en Celsius
     """
     celsius = 25
+    temp_en_fahr= celsius * (9 /5) + 32
+    print(temp_en_fahr)
+    print(celsius)
+temperature()
